@@ -1,0 +1,16 @@
+{
+  "name": "financeiro-api",
+  "version": "1.0.0",
+  "description": "API do app Financeiro: contas de usuário, login e dados na nuvem.",
+  "main": "src/servidor.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/servidor.js",
+    "test": "node --test --test-concurrency=1 \"test/*.test.js\""
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
